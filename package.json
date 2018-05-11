@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-api",
-  "description": "A Dash blockchain REST and web socket API service for Dashcore Node.",
+  "name": "insight-api-socialsend",
+  "description": "A SocialSend blockchain REST and web socket API service for SocialSendcore Node.",
   "version": "0.6.0",
-  "repository": "git://github.com/dashevo/insight-api.git",
+  "repository": "git://github.com/SocialSend/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,19 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api/issues"
+    "url": "https://github.com/SocialSend/insight-api/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api",
+  "homepage": "https://github.com/SocialSend/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "SocialSend api",
     "blockchain api",
     "json",
-    "bitcore-dash",
-    "dashcore"
+    "socialsendcore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -62,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dash": "^0.15.2",
-    "bitcore-message-dash": "^1.0.9",
+    "socialsendcore-lib": "github:SocialSend/socialsendcore-lib",
+    "socialsendcore-message": "github:SocialSend/socialsendcore-message",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",
